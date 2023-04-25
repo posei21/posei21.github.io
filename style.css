@@ -1,0 +1,158 @@
+/* General styles */
+body {
+    font-family: 'Lato', sans-serif;
+    color: #1D1C1C;
+    line-height: 1.5;
+    background-color: #F6F2EF;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    background-color: #FF5678;
+  }
+  
+  .logo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  
+  nav {
+    font-size: 16px;
+  }
+  
+  nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 24px;
+  }
+  
+  nav a:hover {
+    color: #a2a2a2;
+  }
+  
+  /* Banner */
+  .banner {
+    padding: 64px 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  
+  .banner h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    
+  }
+  
+  
+  .banner img {
+    border-radius: 16px;
+  }
+  
+  /* About section */
+  .about {
+    margin-bottom: 64px;
+  }
+  
+  .about h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+  
+  .about p {
+    font-size: 16px;
+  }
+  
+  /* Special offer section */
+  .special-offers {
+    margin-bottom: 64px;
+  }
+  
+  .special-offers h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+  
+  .offers {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  
+  .offer {
+    background-color: #FFFFFF;
+    border: 1px solid #d4d4d4;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .offer img {
+    border-radius: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .offer h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  .offer p {
+    font-size: 16px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #FF5678;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 24px;
+    font-size: 14px;
+    border-radius: 16px;
+  }
+  
+  @media (max-width: 767px) {
+    .offers {
+      flex-direction: column;
+    }
+  
+    .offer {
+      margin-bottom: 24px;
+    }
+  }
+  
